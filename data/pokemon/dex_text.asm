@@ -1187,6 +1187,26 @@ _SeakingDexEntry::
 	next "horn on its head"
 	dex
 
+_ElectrikeDexEntry::
+	text "It stores"
+	next "electricity"
+	next "in its green fur"
+
+	page "and discharges"
+	next "jolts of power"
+	next "to speed up"
+	dex
+
+_ManectricDexEntry::
+	text "It constantly"
+	next "discharges sparks"
+	next "from its fur"
+
+	page "These sparks"
+	next "sometimes start"
+	next "forest fires"
+	dex
+
 _StaryuDexEntry::
 	text "As long as the"
 	next "center section is"
