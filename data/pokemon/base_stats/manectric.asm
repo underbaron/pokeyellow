@@ -7,7 +7,7 @@
 	db 45 ; catch rate
 	db 106 ; base exp
 
-	INCBIN "gfx/pokemon/front/manectric blue sprite gr fr.png", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/manectric blue sprite gr fr.pic", 0, 1 ; sprite dimensions
 	dw ElectrikePicFront, ElectrikePicBack
 
 	db TACKLE, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
