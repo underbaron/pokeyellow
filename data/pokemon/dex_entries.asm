@@ -158,8 +158,8 @@ PokedexEntryPointers:
 	dw MissingNoDexEntry
 	dw GoldeenDexEntry
 	dw SeakingDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
+	dw ElectrikeDexEntry
+	dw ManectricDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw PonytaDexEntry
@@ -1028,6 +1028,20 @@ SeakingDexEntry:
 	db 4,3
 	dw 860
 	text_far _SeakingDexEntry
+	text_end
+
+ElectrikeDexEntry:
+	db "LIGHTNING@"
+	db 2,0
+	db 335
+	text_far _ElectrikeDexEntry
+	text_end
+
+ManectricDexEntry:
+	db "DISCHARGE@"
+	db 4,1
+	db 886
+	text_far _ManectricDexEntry
 	text_end
 
 StaryuDexEntry:
