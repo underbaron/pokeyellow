@@ -161,8 +161,8 @@ EvosMovesPointerTable:
 	dw MissingNo9CEvosMoves
 	dw GoldeenEvosMoves
 	dw SeakingEvosMoves
-	dw MissingNo9FEvosMoves
-	dw MissingNoA0EvosMoves
+	dw ElectrikeEvosMoves
+	dw ManectricEvosMoves
 	dw MissingNoA1EvosMoves
 	dw MissingNoA2EvosMoves
 	dw PonytaEvosMoves
@@ -1842,16 +1842,38 @@ SeakingEvosMoves:
 	db 54, AGILITY
 	db 0
 
-MissingNo9FEvosMoves:
+ElectrikeEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 26, MANECTRIC
 	db 0
 ; Learnset
+	db 1, TACKLE
+	db 4, THUNDER_WAVE
+	db 9, LEER
+	db 14, THUNDER_SHOCK
+	db 17, QUICK_ATTACK
+	db 25, BITE
+	db 27, AGILITY
+	db 33, HYPER_FANG
+	db 37, THUNDER
+	db 43, ROAR
 	db 0
 
-MissingNoA0EvosMoves:
+ManectricEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	
+	db 1, TACKLE
+	db 1, THUNDER_WAVE
+	db 1, LEER
+	db 1, THUNDER_SHOCK
+	db 17, QUICK_ATTACK
+	db 25, BITE
+	db 33, AGILITY
+	db 37, HYPER_FANG
+	db 44, THUNDER
+	db 48, ROAR
 	db 0
 
 MissingNoA1EvosMoves:
