@@ -157,4 +157,5 @@
 	const DEX_MEW        ; 151
 	const DEX_ELECTRIKE  ; 152
 	const DEX_MANECTRIC  ; 153
+
 DEF NUM_POKEMON EQU const_value - 1
